@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.redalyc.principal.ArticulosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-13T17:19:33" hostname="desktop" time="0.837">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.redalyc.principal.ArticulosApplicationTests" time="0.837"/>
+  <system-out><![CDATA[11:19:31.514 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.redalyc.principal.ArticulosApplicationTests]: ArticulosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:19:31.632 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.redalyc.principal.ArticulosApplication for test class com.redalyc.principal.ArticulosApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+?[32m :: Spring Boot :: ?[39m              ?[2m (v3.2.5)?[0;39m
+
+?[2m2024-05-13T11:19:32.100-06:00?[0;39m ?[32m INFO?[0;39m ?[35m23438?[0;39m ?[2m---?[0;39m ?[2m[Articulos] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.r.principal.ArticulosApplicationTests ?[0;39m ?[2m:?[0;39m Starting ArticulosApplicationTests using Java 22.0.1 with PID 23438 (started by ubecerril in /home/ubecerril/Documentos/Intellj-workspace/Articulos)
+?[2m2024-05-13T11:19:32.101-06:00?[0;39m ?[32m INFO?[0;39m ?[35m23438?[0;39m ?[2m---?[0;39m ?[2m[Articulos] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.r.principal.ArticulosApplicationTests ?[0;39m ?[2m:?[0;39m No active profile set, falling back to 1 default profile: "default"
+?[2m2024-05-13T11:19:33.187-06:00?[0;39m ?[32m INFO?[0;39m ?[35m23438?[0;39m ?[2m---?[0;39m ?[2m[Articulos] [    Test worker]?[0;39m ?[2m?[0;39m?[36mc.r.principal.ArticulosApplicationTests ?[0;39m ?[2m:?[0;39m Started ArticulosApplicationTests in 1.411 seconds (process running for 2.552)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/ubecerril/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.13/979ce25f7d3096a2e82214ba7dc972a05ce7a171/byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
