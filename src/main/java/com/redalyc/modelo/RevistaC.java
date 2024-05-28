@@ -4,11 +4,10 @@ import java.util.ArrayList;
 
 public class RevistaC {
     private int clave;
-    ArrayList<Volumen> volumnes;
+    Volumen volumen;
 
     RevistaC(int clave, ArrayList<Volumen> volumnes){
         this.clave=clave;
-        this.volumnes=volumnes;
     }
 
     public RevistaC(){
@@ -19,15 +18,15 @@ public class RevistaC {
         this.clave = clave;
     }
 
-    public void setVolumnes(ArrayList<Volumen> volumnes) {
-        this.volumnes = volumnes;
-    }
-
     public int getClave() {
         return clave;
     }
 
-    public ArrayList<Volumen> getVolumnes() {
-        return volumnes;
+    public void setVolumen(Volumen volumen) {
+        this.volumen = volumen;
+    }
+
+    public Volumen getVolumen() {
+        return volumen;
     }
 }

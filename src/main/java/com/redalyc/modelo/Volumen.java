@@ -3,13 +3,13 @@ package com.redalyc.modelo;
 import java.util.ArrayList;
 
 public class Volumen {
-    private int numero;
-    private int noPublicacion;
-    private int year;
+    private String numero;
+    private String noPublicacion;
+    private String year;
     private ArrayList<String> articulos;
 
 
-    public Volumen(int numero, int noPublicacion, int year, ArrayList<String> articulos) {
+    public Volumen(String numero, String noPublicacion, String year, ArrayList<String> articulos) {
         this.numero = numero;
         this.noPublicacion = noPublicacion;
         this.year = year;
@@ -24,19 +24,19 @@ public class Volumen {
         this.articulos = articulos;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
@@ -44,11 +44,11 @@ public class Volumen {
         return articulos;
     }
 
-    public void setNoPublicacion(int noPublicacion) {
+    public void setNoPublicacion(String noPublicacion) {
         this.noPublicacion = noPublicacion;
     }
 
-    public int getNoPublicacion() {
+    public String getNoPublicacion() {
         return noPublicacion;
     }
 }

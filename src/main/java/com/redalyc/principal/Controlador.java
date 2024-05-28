@@ -35,13 +35,13 @@ public class Controlador {
     * @return JSON con el URL de los artículos de la revista
     */
     @PostMapping()
-    public /*String*/ArrayList<RevistaC> obtenerArt(@RequestBody List<Revista> revistas){
+    public String/*ArrayList<RevistaC>*/ obtenerArt(@RequestBody List<Revista> revistas){
         //Variables aux
         Pattern plantilla = Pattern.compile("(http|https)://\\S*/issue/archive");
         Pattern plantilla2 = Pattern.compile("(http|https)://\\S*/issue/view/[0-9]+");
         Pattern plantilla3 = Pattern.compile("(http|https)://\\S*/article/view/[0-9]+");
         Pattern plantilla4 = Pattern.compile("Vol\\. ([0-9]+) \\S*\\. ([0-9]+) \\(([0-9]+)\\)");
-
+/*
         int articulosT = 0;
 
         //Analizar revista por revista
@@ -128,11 +128,12 @@ public class Controlador {
             }//FIN SI ES OJS
             revistaCompleta.setVolumnes(volumnesAL);
 
-            //restTemplate.postForLocation("urcorrespondiente:6001/getArticulosData",revistaCompleta);
+            //restTemplate.postForLocation("urcorrespondiente:6001/getArticulosData",revistaCompleta);+
             revistasc.add(revistaCompleta);
         }//FIN POR CADA REVISTA
         System.out.println("Total de articulos encontrados: "+articulosT);
 
-        return revistasc;//"Busqueda realizada\n";
+        return revistasc;//"Busqueda realizada\n";*/
+        return "";
     }
 }
